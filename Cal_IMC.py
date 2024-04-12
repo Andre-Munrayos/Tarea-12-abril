@@ -7,4 +7,5 @@ peso = float(input("Ingrese su peso en kilogramos: "))
 altura = float(input("Ingrese su altura en metros: "))
 
 imc = resultado(peso, altura)
+
 print("Su masa corporal totla es:", imc)

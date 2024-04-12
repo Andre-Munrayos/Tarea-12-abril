@@ -1,6 +1,7 @@
 def palindromo(texto):
     
     texto = texto.replace(" ", "").lower()
+
     return texto == texto[::-1]
 
 p = input("Ingrese una palabra o frase: ")
